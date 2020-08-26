@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Location of the String</p>
+
+<button onclick="myFunction()">Click here</button>
+
+<p id="loc"></p>
+
+<script>
+function myFunction() {
+  var str = "we need to use masks and sanitizers to stay safe.";
+  var n = str.indexOf("stay");
+  document.getElementById("loc").innerHTML = n;
+}
+</script>
+
+</body>
+</html>
